@@ -1,0 +1,23 @@
+{
+    "name": "dormilich/painthammer-40k",
+    "description": "A small CLI tool to keep track of of your tabletop paints",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bertold von Dormilich",
+            "email": "Dormilich@netscape.net"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "symfony/console": "^3.3",
+        "level-2/dice": "^2.0",
+        "level-2/maphper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dormilich\\": "src/"
+        }
+    }
+}
